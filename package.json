@@ -1,0 +1,21 @@
+{
+  "name": "tanstack-headcontent-fouc-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/solid-router": "1.168.1",
+    "@tanstack/solid-start": "1.167.1",
+    "solid-js": "^1.9.11"
+  },
+  "devDependencies": {
+    "@tanstack/router-plugin": "1.167.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.1",
+    "vite-plugin-solid": "^2.11.11"
+  }
+}
