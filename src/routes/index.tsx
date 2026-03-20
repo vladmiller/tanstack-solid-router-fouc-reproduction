@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/solid-router"
+import { Link, createFileRoute } from "@tanstack/solid-router"
 import { createSignal } from "solid-js"
 
 export const Route = createFileRoute("/")({
@@ -29,6 +29,9 @@ function Home() {
       <button type="button" onClick={handleClick}>
         replaceState (triggers FOUC)
       </button>
+      <p>
+        <Link to="/about">Go to about page</Link>
+      </p>
     </div>
   )
 }
